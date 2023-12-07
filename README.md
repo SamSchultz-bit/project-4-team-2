@@ -1,11 +1,11 @@
 # Spam E-Mail Predictor
-## Contributors
+### Contributors
 Angel Lee, Sam Schultz, Matthew Byron, Esther Baumgartner, Colin Vehmeier
 
 ## Overview
 The aim of this project is to create a classification model that can accurately sort whether an email is spam or ham. 
-Spam: unsolicited and unwanted junk email sent out in bulk to an indiscriminate
-Ham: non-spam email, “good/wanted” email
+> Spam: unsolicited and unwanted junk email sent out in bulk to an indiscriminate
+> Ham: non-spam email, “good/wanted” email
 
 ## Resources
 Dataset: https://www.kaggle.com/datasets/maharshipandya/email-spam-dataset-extended
