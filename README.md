@@ -101,6 +101,7 @@ Narkhede, S. (2018, May 9th). Understanding Confusion Matrix. Medium. Retrieved 
 Parr, K. (2022, August 22nd). Markdown Cheat Sheet- How to Write Articles in Markdown Language. FreeCodeCamp. Retrieved from: https://www.freecodecamp.org/news/markdown-cheatsheet/
 
 **Defining Models:**
+
 OpenAI. (n.d.) Can you explain to me what Random Forest, Logistic Regression, and Decision Tree models are? Retrieved on 2023, December 6th. Retrieved from: https://chat.openai.com/
 
 **Optimizing Model(s):**
