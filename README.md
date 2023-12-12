@@ -72,18 +72,6 @@ Cisco. (n.d.). What Is Spam Email? Cisco. Retrieved from: https://www.cisco.com/
 
 Cwiki. (2009, September 20th). Ham. CWiki. Retrieved from: https://cwiki.apache.org/confluence/display/spamassassin/Ham#:~:text=%22Ham%22%20is%20e%2Dmail,non%2Dspam%22%2C%20instead
 
-**Optimizing Random Forest Model:**
-
-Koehrsen, W. (2018, January 9th). Hyperparameter Tuning the Random Forest in Python. Retrieved from: https://towardsdatascience.com/hyperparameter-tuning-the-random-forest-in-python-using-scikit-learn-28d2aa77dd74
-
-**Optimizing Logistic Regression Model:**
-
-StackOverflow. (2023, March 10th). How to increase the model accuracy of logistic regression in Scikit python? StackOverflow. Retrieved from: https://stackoverflow.com/questions/38077190/how-to-increase-the-model-accuracy-of-logistic-regression-in-scikit-python
-
-**Optimizing Decision Tree Model:**
-
-StackOverflow. (2020, June 5th). Improve precision of my predictive technique in Python. StackOverflow. Retrieved from: https://stackoverflow.com/questions/62224518/improve-precision-of-my-predictive-technique-in-python
-
 **Understanding Confusion Matrix:**
 
 Narkhede, S. (2018, May 9th). Understanding Confusion Matrix. Medium. Retrieved from: https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62
@@ -94,3 +82,22 @@ Parr, K. (2022, August 22nd). Markdown Cheat Sheet- How to Write Articles in Mar
 
 **Defining Models:**
 OpenAI. (n.d.) Can you explain to me what Random Forest, Logistic Regression, and Decision Tree models are? Retrieved on 2023, December 6th. Retrieved from: https://chat.openai.com/
+
+**Optimizing Model:***
+
+Koehrsen, W. (2018, January 9th). Hyperparameter Tuning the Random Forest in Python. Retrieved from: https://towardsdatascience.com/hyperparameter-tuning-the-random-forest-in-python-using-scikit-learn-28d2aa77dd74
+
+StackOverflow. (2023, March 10th). How to increase the model accuracy of logistic regression in Scikit python? StackOverflow. Retrieved from: https://stackoverflow.com/questions/38077190/how-to-increase-the-model-accuracy-of-logistic-regression-in-scikit-python
+
+StackOverflow. (2020, June 5th). Improve precision of my predictive technique in Python. StackOverflow. Retrieved from: https://stackoverflow.com/questions/62224518/improve-precision-of-my-predictive-technique-in-python
+
+SciKit Learn. (n.d.). Sklean.model_selection.RandomizedSearchCV. Scikit Learn Documentation. Retrieved from: https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.RandomizedSearchCV.html 
+
+StackOverflow. (n.d.). Proper use of “class_weight” parameter in Random Forest classifier. StackOverflow. Retrieved from: https://stackoverflow.com/questions/58275113/proper-use-of-class-weight-parameter-in-random-forest-classifier
+
+StackOverflow. (n.d.). How to penalize False Negatives more than False positives. StackOverflow. Retrieved from: https://stackoverflow.com/questions/49151325/how-to-penalize-false-negatives-more-than-false-positives
+
+Scikit Learn. (n.d.). Sklearn.ensemble.RandomForestClassifier. SciKit Learn Documentation. Retrieved from: https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
+
+Brownlee, J. (2021, January 5th). Random Oversampling and Undersampling for Imbalanced Classification. Machine Learning Mastery. Retrieved from: https://machinelearningmastery.com/random-oversampling-and-undersampling-for-imbalanced-classification/
+
