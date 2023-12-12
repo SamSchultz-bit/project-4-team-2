@@ -54,7 +54,7 @@ Decision Tree: "Tree-like model with nodes representing features and leaves repr
 
 ### After:
 
-## Resources
+## Resources (In Usage Order):
 
 **Dataset:**
 
@@ -83,7 +83,7 @@ Parr, K. (2022, August 22nd). Markdown Cheat Sheet- How to Write Articles in Mar
 **Defining Models:**
 OpenAI. (n.d.) Can you explain to me what Random Forest, Logistic Regression, and Decision Tree models are? Retrieved on 2023, December 6th. Retrieved from: https://chat.openai.com/
 
-**Optimizing Model:***
+**Optimizing Model(s):**
 
 Koehrsen, W. (2018, January 9th). Hyperparameter Tuning the Random Forest in Python. Retrieved from: https://towardsdatascience.com/hyperparameter-tuning-the-random-forest-in-python-using-scikit-learn-28d2aa77dd74
 
