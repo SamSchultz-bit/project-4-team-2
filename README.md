@@ -58,7 +58,9 @@ Decision Tree: "Tree-like model with nodes representing features and leaves repr
 
 **Dataset:**
 
-SpamAssasin's Old Public Corpus. (n.d.). Email Spam Dataset (Extended). Kaggle. Retrieved from: https://www.kaggle.com/datasets/maharshipandya/email-spam-dataset-extended
+Maharshipandya. (n.d.). Email Spam Dataset (Extended). Kaggle. Retrieved from: https://www.kaggle.com/datasets/maharshipandya/email-spam-dataset-extended
+
+Spam Assassin’s Old Public Corpus. (n.d.). Index of/old/publiccorpus. Apache Software Foundation. Retrieved from: https://spamassassin.apache.org/old/publiccorpus/ 
 
 **Cleaning:**
 
