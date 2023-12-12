@@ -4,7 +4,8 @@ Angel Lee, Sam Schultz, Matthew Byron, Esther Baumgartner, Colin Vehmeier
 
 ## Overview
 ### Problem:
-Do you ever find unnecesary spam emails in your primary inbox or worse have to go looking for a ham email in your spam/junk folders?
+- Receiving too many spam emails in your inbox
+- Having to find a ham email in your spam/junk folders
 
 ### Description:
 
@@ -18,17 +19,17 @@ The aim of this project is to create a classification model that can accurately 
 In this repository, you will find the Google Slides presentation, the results folder, the resources folder, and the cleaning.ipynb file where we cleaned our data, ran our models, and made changes to optimize them. The results folder contains the classification reports for each model before and after optimization changes. The resources folder that contains the main_ham folder and the main_spam folder with the raw data (retrieved from Kaggle). 
 
 TLDR:
-- Main: Google Slides Presentatio, Results folder, Resource Folder, and Cleaning jupyter notebook.
-  - Results folder: Classification reports
+- Main: Google Slides Presentation (Project-4-Group-2: Ham vs Spam), Results folder, Resources Folder, and Cleaning jupyter notebook.
+  - Results folder: Classification reports and visualizations
   - Resources folder: main_ham and main_spam folders
 
 ## Data Source and Explanation:
 
-The dataset used was the "Email Spam Dataset (Extended) retrieved from Kaggle (cited below in resources). The original source is SpamAssasin's Old Public Corpus but was uploaded by a Kaggle user. The dataset has two zip folders. The main_ham folder contains 6,951 'ham' emails and the main_spam folder contains 2,398 'spam' raw email files. All of the data was collected from 2002-2005.
+The dataset used was the "Email Spam Dataset (Extended) retrieved from Kaggle (cited below in resources). The original source is SpamAssasin's Old Public Corpus but was reuploaded and modified by the Kaggle user. The dataset has two zip folders for spam and ham emails. The main_ham folder contains 6,951 'ham' emails and the main_spam folder contains 2,398 'spam' raw email files. All of the data was collected from 2002-2005.
 
 ## Data Cleaning and Preprocessing:
 
-We must give credit to the original contributer, the user Maharshipandya from Kaggle. They contributed the notebook "Email Spam Classification [98%]" (also linked below in resource). Their notebook helped us successfully load and parse the files. We also made tweaks for how we structured our project.
+We must give credit to the original contributer, Kaggle user Maharshipandya. Along with reuploading the dataset with extendsions, they also contributed the notebook "Email Spam Classification [98%]" (also linked below in resource). Their notebook helped us successfully load, parse, and clean the raw data. We also made adjustments to their original code for how we structured our project.
 
 ### Steps:
 1. Load ham and spam emails
@@ -39,9 +40,9 @@ We must give credit to the original contributer, the user Maharshipandya from Ka
 6. Create pipeline
 7. Prepare and train test sets
 8. Run classification models
-9. Make adjustments to optimize models and rerun
+9. Make optimizations to best model and rerun
 
-### Models Used:
+### Models Tested:
 Random Forest: "Ensemble of decision trees. Each tree is built with randomness to improve generalization and reduce overfitting. Used for both classification and regression."
 
 Logistic Regression: "Linear model predicting probabilities for binary classification. Extends to multinomial logistic regression for multiple classes."
@@ -49,10 +50,27 @@ Logistic Regression: "Linear model predicting probabilities for binary classific
 Decision Tree: "Tree-like model with nodes representing features and leaves representing outcomes. Used for both classification and regression."
 
 ## Results:
+##### Note about Confusion Matrix
 
-### Before:
+[[True Negative (TN), False Positive (FP)][False Negative (FN), True positive (TP)]]
 
-### After:
+True Positives (TP): These are the emails that the model correctly identified as spam. This is good because it means the spam filter is doing its job correctly.
+
+True Negatives (TN): These are the emails that the model correctly identified as ham (non-spam). This is also good as it indicates that non-spam emails are being correctly identified.
+
+False Positives (FP): These are the emails that are actually ham, but the model incorrectly classified them as spam. False positives can be annoying because they may lead to important emails being flagged as spam.
+
+False Negatives (FN): These are the emails that are actually spam, but the model incorrectly classified them as ham. False negatives are a more serious issue because they allow spam to reach the inbox, defeating the purpose of the spam filter.
+
+1. Random Forest: 99% Accuracy, TP- 465, TN- 1378, FP- 8, FN- 19.
+
+2. Logistic Regression: 98% Accuracy, TP- 465, TN- 1369, FP- 17, FN- 19.
+
+3. Decision Tree: 97% Accuracy, TP- 449, TN- 1360, FP- 26, FN- 35.
+
+**The Random Forest Model performed the best and is the model we are choosing to optimize.**
+
+### After Optimizing the Random Forest Model:
 
 ## Resources (In Usage Order):
 
