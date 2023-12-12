@@ -50,7 +50,7 @@ Logistic Regression: "Linear model predicting probabilities for binary classific
 Decision Tree: "Tree-like model with nodes representing features and leaves representing outcomes. Used for both classification and regression."
 
 ## Results:
-##### Note about Confusion Matrix
+##### Confusion Matrix:
 
 [[True Negative (TN), False Positive (FP)][False Negative (FN), True positive (TP)]]
 
@@ -68,7 +68,7 @@ False Negatives (FN): These are the emails that are actually spam, but the model
 
 3. Decision Tree: 97% Accuracy, TP- 449, TN- 1360, FP- 26, FN- 35.
 
-**The Random Forest Model performed the best and is the model we are choosing to optimize.**
+**The Random Forest Model performed the best and is the model chose to optimize.**
 
 ### After Optimizing the Random Forest Model:
 
