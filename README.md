@@ -1,6 +1,6 @@
 # Spam E-Mail Predictor
 ### Contributors
-Angel Lee, Sam Schultz, Matthew Byron, Esther Baumgartner, Colin Vehmeier
+Angel Lee, Sam Schultz,  Colin Vehmeier, Matthew Byron, Esther Baumgartner,
 
 ## Overview
 ### Problem:
@@ -16,12 +16,12 @@ The aim of this project is to create a classification model that can accurately 
 
 ## Repository Structure:
 
-In this repository, you will find the Google Slides presentation, the results folder, the resources folder, and the cleaning.ipynb file where we cleaned our data, ran our models, and made changes to optimize them. The results folder contains the classification reports for each model before and after optimization changes. The resources folder that contains the main_ham folder and the main_spam folder with the raw data (retrieved from Kaggle). 
+In this repository, you will find the "Project-4-Group-2: Ham vs Spam" Google Slides presentation, the "Results" folder, the "Resources" folder, and the "model_optimized" jupyter notebook where we cleaned our data, ran our models, made optimizations, and visualizations. The "Results" folder contains the confusion matrix heatmaps for each model and precision-recall scatter plots. The "Resources" folder contains the main_ham folder and the main_spam folder with the raw data (retrieved from Kaggle). 
 
 TLDR:
-- Main: Google Slides Presentation (Project-4-Group-2: Ham vs Spam), Results folder, Resources Folder, and Cleaning jupyter notebook.
-  - Results folder: Classification reports and visualizations
-  - Resources folder: main_ham and main_spam folders
+- Main: "Project-4-Group-2: Ham vs Spam" Google Slides Presentation, "Results" folder, "Resources Folder", and "model_optimized" jupyter notebook.
+  - Results folder: Confusion Matrix Heatmaps and Precision-Recall Scatter Plots
+  - Resources folder: "main_ham" and "main_spam" folders
 
 ## Data Source and Explanation:
 
@@ -50,9 +50,7 @@ Logistic Regression: "Linear model predicting probabilities for binary classific
 Decision Tree: "Tree-like model with nodes representing features and leaves representing outcomes. Used for both classification and regression."
 
 ## Results:
-##### Confusion Matrix:
-
-[[True Negative (TN), False Positive (FP)][False Negative (FN), True positive (TP)]]
+##### Confusion Matrix Explanation:
 
 True Positives (TP): These are the emails that the model correctly identified as spam. This is good because it means the spam filter is doing its job correctly.
 
@@ -62,17 +60,33 @@ False Positives (FP): These are the emails that are actually ham, but the model 
 
 False Negatives (FN): These are the emails that are actually spam, but the model incorrectly classified them as ham. False negatives are a more serious issue because they allow spam to reach the inbox, defeating the purpose of the spam filter.
 
-1. Random Forest: 99% Accuracy, TP- 465, TN- 1378, FP- 8, FN- 19.
+### Initial Run:
+![cm-heat-decisiontree-1](https://github.com/leeangel0428/Project-3-Group-2/assets/137225965/baa36f4a-b8cf-444f-b128-10c5e294c91d)
+![cm-heat-logisticreg-1](https://github.com/leeangel0428/Project-3-Group-2/assets/137225965/0b3de01c-f133-46db-86e3-1fa9a4270fa0)
+![cm-heat-randomforest-1](https://github.com/leeangel0428/Project-3-Group-2/assets/137225965/b4a32c22-57f2-4333-a059-17e1b43d8b7e)
+![precision-recall-scatter-1](https://github.com/leeangel0428/Project-3-Group-2/assets/137225965/3555f003-f2bf-4202-8285-0b763b925b88)
 
-2. Logistic Regression: 98% Accuracy, TP- 465, TN- 1369, FP- 17, FN- 19.
+### Oversampled Run:
+![cm-heat-decisiontree-2-oversam](https://github.com/leeangel0428/Project-3-Group-2/assets/137225965/6ef04ea6-b6e9-4891-a4c1-feffcba3fc54)
+![cm-heat-logisticreg-2-oversam](https://github.com/leeangel0428/Project-3-Group-2/assets/137225965/6c5193f8-167c-47f1-a70c-b0efca072087)
+![cm-heat-randomforest-2-oversam](https://github.com/leeangel0428/Project-3-Group-2/assets/137225965/29255724-6afe-44bd-8c73-18aa1243a2db)
+![precision-recall-scatter-2-oversam](https://github.com/leeangel0428/Project-3-Group-2/assets/137225965/c1a3fed7-1350-42f1-a6df-3b5a9d9b86f7)
 
-3. Decision Tree: 97% Accuracy, TP- 449, TN- 1360, FP- 26, FN- 35.
+### Undersampled Run:
+![cm-heat-decisiontree-3-undersam](https://github.com/leeangel0428/Project-3-Group-2/assets/137225965/162b97b2-b97d-44ad-ba93-8830a946563a)
+![cm-heat-logisticreg-3-undersam](https://github.com/leeangel0428/Project-3-Group-2/assets/137225965/088ef99b-259a-495b-b947-0276ff09486f)
+![cm-heat-randomforest-3-undersam](https://github.com/leeangel0428/Project-3-Group-2/assets/137225965/3c052aca-80eb-4b3e-aea6-f0a844e7117a)
+![precision-recall-scatter-3-undersam](https://github.com/leeangel0428/Project-3-Group-2/assets/137225965/1f2cb252-4cfe-46a6-97b3-25f5bdba3fa3)
 
+### Final Optimization of Random Forest Model:
 **The Random Forest Model performed the best and is the model chose to optimize.**
+![cm-heat-randomforest-4-op](https://github.com/leeangel0428/Project-3-Group-2/assets/137225965/368abbba-b4f2-429d-a838-6e262f35b8c9)
+![scatter-comparison-all-rf-models](https://github.com/leeangel0428/Project-3-Group-2/assets/137225965/6c7775c4-8118-4517-93e2-6e783edf662a)
 
-### After Optimizing the Random Forest Model:
 
 ## Resources (In Usage Order):
+
+Aside from the sources cited below, everything used was retained information gathered from classes and class activities. As always shout out to our bootcamp TAs Sam and Randy for all their help answering our questions during office hours and our instructor Hunter for always being clear in his articulation of the course material.
 
 **Dataset:**
 
@@ -82,7 +96,7 @@ Spam Assassin’s Old Public Corpus. (n.d.). Index of/old/publiccorpus. Apache S
 
 **Cleaning:**
 
-Pandaya, M. (n.d.). Email Spam Classification [98%]. Kaggle. Retrieved from:https://www.kaggle.com/code/maharshipandya/email-spam-classification-98
+Maharshipandya. (n.d.). Email Spam Classification [98%]. Kaggle. Retrieved from:https://www.kaggle.com/code/maharshipandya/email-spam-classification-98
 
 **Defining Spam:**
 
