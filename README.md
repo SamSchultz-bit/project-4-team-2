@@ -16,10 +16,10 @@ The aim of this project is to create a classification model that can accurately 
 
 ## Repository Structure:
 
-In this repository, you will find the "Project-4-Group-2: Ham vs Spam" Google Slides presentation, the "Results" folder, the "Resources" folder, and the "model_optimized" jupyter notebook where we cleaned our data, ran our models, made optimizations, and visualizations. The "Results" folder contains the confusion matrix heatmaps for each model and precision-recall scatter plots. The "Resources" folder contains the main_ham folder and the main_spam folder with the raw data (retrieved from Kaggle). 
+In this repository, you will find the "Project-4-Group-2_Ham vs Spam" Google Slides presentation, the "Results" folder, the "Resources" folder, and the "model_optimized" jupyter notebook where we cleaned our data, ran our models, made optimizations, and visualizations. The "Results" folder contains the confusion matrix heatmaps for each model and precision-recall scatter plots. The "Resources" folder contains the main_ham folder and the main_spam folder with the raw data (retrieved from Kaggle). 
 
 TLDR:
-- Main: "Project-4-Group-2: Ham vs Spam" Google Slides Presentation, "Results" folder, "Resources Folder", and "model_optimized" jupyter notebook.
+- Main: "Project-4-Group-2_Ham vs Spam" Google Slides Presentation, "Results" folder, "Resources Folder", and "model_optimized" jupyter notebook.
   - Results folder: Confusion Matrix Heatmaps and Precision-Recall Scatter Plots
   - Resources folder: "main_ham" and "main_spam" folders
 
